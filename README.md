@@ -17,6 +17,7 @@ The back end of Autofix handles data management and communication with the datab
 1. **Database Connection**: Establish a connection to your database (e.g., MySQL,Oracle, PostgreSQL, MongoDB).
 2. **Entities (Models)**: Define the data models for each table (e.g., Product, User, Service,Reservation).
 3. **Repository**: Implement methods to interact with the database (e.g., retrieving product details, adding new products).
+4. **Servlets** the main controllers of the transactions inside web pages  
 
 ## Front End
 
