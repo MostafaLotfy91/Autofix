@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1,
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+table th,
+table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+table th {
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+.services-table th,
+.products-table th,
+.reservations-table th {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.services-table tr:nth-child(even),
+.products-table tr:nth-child(even),
+.reservations-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.services-table tr:hover,
+.products-table tr:hover,
+.reservations-table tr:hover {
+    background-color: #ddd;
+}
+
+.logout-btn {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.logout-btn button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.logout-btn button:hover {
+    background-color: #555;
+}
+
+
+
+
